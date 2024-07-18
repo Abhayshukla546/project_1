@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 10px; */
+    background-color: #f5f5f5;
+    width: 100%;
+}
+header {
+    position: relative;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.header-icons .user-icon, .header-icons .bell-icon {
+    font-size: 24px;
+}
+
+.header-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.ipl{
+     display: flex;
+     height: 20px;
+     width: 20px;;
+}
+.nav-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.nav-icon {
+    text-align: center;
+    font-size: 14px;
+}
+
+.trending {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.trending h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.trending-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.trending-item {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 4px;
+    flex: 1 1 calc(50% - 20px);
+    text-align: center;
+    font-size: 14px;
+}
+
+.betting {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.betting-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.betting-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.yes-button, .no-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.yes-button {
+    background-color: #d0eaff;
+    color: #007bff;
+}
+
+.no-button {
+    background-color: #ffd0d0;
+    color: #ff0000;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-icon {
+    text-align: center;
+    font-size: 14px;
+}
